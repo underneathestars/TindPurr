@@ -199,7 +199,7 @@ h1 {
 
 /* Media Queries */
 
-@media (max-width: 1028px) {
+@media (min-width: 500px), (max-width: 1028px) {
     .title-image {
         position: static;
         transform: rotate(0);
@@ -211,5 +211,77 @@ h1 {
 
     h1 {
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .title-image {
+        width: 50%;
+        margin-top: 10px;
+    }
+    .row .col-lg-6 h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .row .col-lg-6 button {
+        width: auto;
+        font-size: 1rem;
+        margin: 5px auto;
+    }
+
+    #features .col-lg-4 {
+        padding: 5% 15%;
+    }
+
+    #features h3 {
+        font-size: 20px;
+    }
+
+    #features p {
+        font-size: 15px;
+    }
+
+    #testimonials {
+        padding: 5%;
+        text-align: center;
+    }
+
+    #testimonials #carouselExampleControls button {
+        width: 50px;
+        padding: 0;
+    }
+
+    #testimonials h2 {
+        font-size: 25px;
+    }
+
+    #testimonials em {
+        font-size: 12px;
+    }
+
+    #testimonials img {
+        width: 30%;
+
+    }
+
+    #pricing {
+        padding: 10px 12px;
+    }
+
+    #pricing .card-group {
+        font-size: 15px;
+    }
+
+    #pricing .card-group button {
+        font-size: 15px;
+    }
+
+    #cta h3 {
+        font-size: 30px;
+    }
+
+    #cta button {
+        margin: 10px auto;
     }
 }
