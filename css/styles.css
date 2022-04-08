@@ -1,0 +1,215 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #f44C68;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-bottom: 10%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 2.5rem
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: 600;
+    align-items: flex-start;
+}
+
+#navbarNav ul li {
+    font-size: 1.2rem;
+    padding: 0 18px;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 18%;
+    height: auto;
+    transform: rotate(15deg);
+    position: absolute;
+    z-index: 0;
+    right: 28%;
+}
+
+/* Features */
+
+.features {
+    background-color: white;
+    padding: 6% 8%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.features .fa-solid {
+    padding: 5% 15%;
+    display: inline;
+    color: rgb(240, 134, 134);
+}
+
+.features .fa-solid:hover {
+    color: #f44C68;
+}
+
+
+.features h3 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.features p {
+    color: #8f8f8f;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* Testimonials */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: rgb(240, 134, 134);
+    color: white;
+}
+
+#testimonials h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+    background-color: rgb(240, 134, 134);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#pricing h2 {
+    font-weight: 600;
+}
+
+.card-group .card {
+    padding: 7% 15%;
+    margin: 5%;
+}
+
+.card-header h3 {
+    font-weight: 900;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+  
+}
+
+.card-group .btn {
+    width: 100%;
+}
+
+/* Call to Action */
+
+#cta {
+    background-color: #f44C68;
+    padding: 10%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#cta h3 {
+    font-weight: 900!important;
+    color: white;
+    font-size: 50px;
+    padding: 0 15%;
+    margin-bottom: 20px;
+}
+
+#cta button {
+    margin: 30px 5px;
+}
+
+/* Footer */
+
+#footer {
+    padding: 7%;
+    text-align: center;
+}
+
+#footer i {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#footer a {
+    color: black;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+    #title {
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+}
